@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991EB455263225F200503504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EB454263225F200503504 /* AppDelegate.swift */; };
+		991EB457263225F200503504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EB456263225F200503504 /* SceneDelegate.swift */; };
+		991EB459263225F200503504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EB458263225F200503504 /* ViewController.swift */; };
+		991EB45C263225F200503504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991EB45A263225F200503504 /* Main.storyboard */; };
+		991EB45E263225F800503504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991EB45D263225F800503504 /* Assets.xcassets */; };
+		991EB461263225F800503504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991EB45F263225F800503504 /* LaunchScreen.storyboard */; };
+		991EB46C263225F900503504 /* BirthdayNoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EB46B263225F900503504 /* BirthdayNoteAppTests.swift */; };
+		991EB477263225F900503504 /* BirthdayNoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EB476263225F900503504 /* BirthdayNoteAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991EB468263225F900503504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991EB449263225F200503504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991EB450263225F200503504;
+			remoteInfo = BirthdayNoteApp;
+		};
+		991EB473263225F900503504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991EB449263225F200503504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991EB450263225F200503504;
+			remoteInfo = BirthdayNoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991EB451263225F200503504 /* BirthdayNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991EB454263225F200503504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		991EB456263225F200503504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		991EB458263225F200503504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		991EB45B263225F200503504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991EB45D263225F800503504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991EB460263225F800503504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		991EB462263225F800503504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991EB467263225F900503504 /* BirthdayNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991EB46B263225F900503504 /* BirthdayNoteAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNoteAppTests.swift; sourceTree = "<group>"; };
+		991EB46D263225F900503504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991EB472263225F900503504 /* BirthdayNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991EB476263225F900503504 /* BirthdayNoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNoteAppUITests.swift; sourceTree = "<group>"; };
+		991EB478263225F900503504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991EB44E263225F200503504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB464263225F900503504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB46F263225F900503504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991EB448263225F200503504 = {
+			isa = PBXGroup;
+			children = (
+				991EB453263225F200503504 /* BirthdayNoteApp */,
+				991EB46A263225F900503504 /* BirthdayNoteAppTests */,
+				991EB475263225F900503504 /* BirthdayNoteAppUITests */,
+				991EB452263225F200503504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991EB452263225F200503504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991EB451263225F200503504 /* BirthdayNoteApp.app */,
+				991EB467263225F900503504 /* BirthdayNoteAppTests.xctest */,
+				991EB472263225F900503504 /* BirthdayNoteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991EB453263225F200503504 /* BirthdayNoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				991EB454263225F200503504 /* AppDelegate.swift */,
+				991EB456263225F200503504 /* SceneDelegate.swift */,
+				991EB458263225F200503504 /* ViewController.swift */,
+				991EB45A263225F200503504 /* Main.storyboard */,
+				991EB45D263225F800503504 /* Assets.xcassets */,
+				991EB45F263225F800503504 /* LaunchScreen.storyboard */,
+				991EB462263225F800503504 /* Info.plist */,
+			);
+			path = BirthdayNoteApp;
+			sourceTree = "<group>";
+		};
+		991EB46A263225F900503504 /* BirthdayNoteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				991EB46B263225F900503504 /* BirthdayNoteAppTests.swift */,
+				991EB46D263225F900503504 /* Info.plist */,
+			);
+			path = BirthdayNoteAppTests;
+			sourceTree = "<group>";
+		};
+		991EB475263225F900503504 /* BirthdayNoteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				991EB476263225F900503504 /* BirthdayNoteAppUITests.swift */,
+				991EB478263225F900503504 /* Info.plist */,
+			);
+			path = BirthdayNoteAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991EB450263225F200503504 /* BirthdayNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991EB47B263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteApp" */;
+			buildPhases = (
+				991EB44D263225F200503504 /* Sources */,
+				991EB44E263225F200503504 /* Frameworks */,
+				991EB44F263225F200503504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayNoteApp;
+			productName = BirthdayNoteApp;
+			productReference = 991EB451263225F200503504 /* BirthdayNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991EB466263225F900503504 /* BirthdayNoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991EB47E263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteAppTests" */;
+			buildPhases = (
+				991EB463263225F900503504 /* Sources */,
+				991EB464263225F900503504 /* Frameworks */,
+				991EB465263225F900503504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991EB469263225F900503504 /* PBXTargetDependency */,
+			);
+			name = BirthdayNoteAppTests;
+			productName = BirthdayNoteAppTests;
+			productReference = 991EB467263225F900503504 /* BirthdayNoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		991EB471263225F900503504 /* BirthdayNoteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991EB481263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteAppUITests" */;
+			buildPhases = (
+				991EB46E263225F900503504 /* Sources */,
+				991EB46F263225F900503504 /* Frameworks */,
+				991EB470263225F900503504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991EB474263225F900503504 /* PBXTargetDependency */,
+			);
+			name = BirthdayNoteAppUITests;
+			productName = BirthdayNoteAppUITests;
+			productReference = 991EB472263225F900503504 /* BirthdayNoteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991EB449263225F200503504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					991EB450263225F200503504 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					991EB466263225F900503504 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 991EB450263225F200503504;
+					};
+					991EB471263225F900503504 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 991EB450263225F200503504;
+					};
+				};
+			};
+			buildConfigurationList = 991EB44C263225F200503504 /* Build configuration list for PBXProject "BirthdayNoteApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991EB448263225F200503504;
+			productRefGroup = 991EB452263225F200503504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991EB450263225F200503504 /* BirthdayNoteApp */,
+				991EB466263225F900503504 /* BirthdayNoteAppTests */,
+				991EB471263225F900503504 /* BirthdayNoteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991EB44F263225F200503504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991EB461263225F800503504 /* LaunchScreen.storyboard in Resources */,
+				991EB45E263225F800503504 /* Assets.xcassets in Resources */,
+				991EB45C263225F200503504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB465263225F900503504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB470263225F900503504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991EB44D263225F200503504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991EB459263225F200503504 /* ViewController.swift in Sources */,
+				991EB455263225F200503504 /* AppDelegate.swift in Sources */,
+				991EB457263225F200503504 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB463263225F900503504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991EB46C263225F900503504 /* BirthdayNoteAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991EB46E263225F900503504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991EB477263225F900503504 /* BirthdayNoteAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991EB469263225F900503504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991EB450263225F200503504 /* BirthdayNoteApp */;
+			targetProxy = 991EB468263225F900503504 /* PBXContainerItemProxy */;
+		};
+		991EB474263225F900503504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991EB450263225F200503504 /* BirthdayNoteApp */;
+			targetProxy = 991EB473263225F900503504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991EB45A263225F200503504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991EB45B263225F200503504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991EB45F263225F800503504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991EB460263225F800503504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991EB479263225F900503504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991EB47A263225F900503504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991EB47C263225F900503504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991EB47D263225F900503504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		991EB47F263225F900503504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayNoteApp.app/BirthdayNoteApp";
+			};
+			name = Debug;
+		};
+		991EB480263225F900503504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayNoteApp.app/BirthdayNoteApp";
+			};
+			name = Release;
+		};
+		991EB482263225F900503504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayNoteApp;
+			};
+			name = Debug;
+		};
+		991EB483263225F900503504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirthdayNoteAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bedirhan.BirthdayNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayNoteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991EB44C263225F200503504 /* Build configuration list for PBXProject "BirthdayNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991EB479263225F900503504 /* Debug */,
+				991EB47A263225F900503504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991EB47B263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991EB47C263225F900503504 /* Debug */,
+				991EB47D263225F900503504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991EB47E263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991EB47F263225F900503504 /* Debug */,
+				991EB480263225F900503504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991EB481263225F900503504 /* Build configuration list for PBXNativeTarget "BirthdayNoteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991EB482263225F900503504 /* Debug */,
+				991EB483263225F900503504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991EB449263225F200503504 /* Project object */;
+}
